@@ -3,7 +3,7 @@
     <!-- 設定 navbar 在畫面正上方 -->
     <b-row>
       <b-col cols="12">
-        <NavBar />
+<!--        <NavBar/>-->
       </b-col>
     </b-row>
 

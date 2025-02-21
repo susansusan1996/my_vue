@@ -19,10 +19,13 @@ import 'bootstrap-vue-next/dist/bootstrap-vue-next.css'
 // 載入 vue-axios
 import axios from 'axios';
 import VueAxios from 'vue-axios';
+import router from './router'; // 確保這裡引入 router
+
 // 使用 vue-axios
 
 
 const app = createApp(App)
 app.use(createBootstrap())
 app.use(VueAxios, axios);
+app.use(router);
 app.mount('#app')
