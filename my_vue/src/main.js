@@ -20,6 +20,7 @@ import 'bootstrap-vue-next/dist/bootstrap-vue-next.css'
 import axios from 'axios';
 import VueAxios from 'vue-axios';
 import router from './router'; // 確保這裡引入 router
+import '../src/assets/css/global.css';
 
 // 使用 vue-axios
 
