@@ -7,6 +7,9 @@
         <BNavItem ></BNavItem>
       </BNavbarNav>
       <BNavbarNav class="ms-auto mb-2 mb-lg-0">
+        <BNavItemDropdown text="關於我" right>
+          <BDropdownItem to="/resume">自我介紹</BDropdownItem>
+        </BNavItemDropdown>
         <BNavItemDropdown text="遊戲" right>
           <BDropdownItem to="/snake">貪吃蛇</BDropdownItem>
           <BDropdownItem to="/mario">馬力歐</BDropdownItem>

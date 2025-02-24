@@ -5,11 +5,13 @@ import BST from '../components/data_structure/BST.vue';
 import Snake from '../components/game/Snake.vue';
 import Mario from '../components/game/Mario.vue';
 import Shoot from '../components/game/Shoot.vue';
+import ppt from '../components/resume/ppt.vue';
 
 
 
 const routes = [
     { path: '/', name: 'Home', component: () => import('../components/data_structure/Home.vue') },
+    { path: '/resume', name: 'ppt', component: ppt },
     { path: '/stack', name: 'Stack', component: Stack },
     { path: '/queue', name: 'Queue', component: Queue },
     { path: '/bst', name: 'BST', component: BST },
